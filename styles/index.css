@@ -14,9 +14,13 @@ body{
   background-color: blanchedalmond;
 }
 .main_header{
+    width: 1200px;
     text-align: center;
     padding-top: 20px;
     color: brown;
+    padding-left: 50px;
+    
+    
 }
 
 .container{
@@ -37,20 +41,29 @@ body{
   display: flex;
   justify-content: center;
   align-items: end;
-  top: 70%;
+  top: 50%;
   left: 50%;
   padding-top: 50px;
-   
+  margin-top: 50px;   
 }
-.main_info .main_title {
+.main_info {
   font-family: "Playfair Display", serif;
-  font-size: 24px;
+  font-size: 16px;
   color: darkred;
 
+}
+.main_title {
+  font-family: "Playfair Display", serif;
+  font-size: 12px;
+  color:rgb(165, 121, 10);
+  margin: auto;
+  padding-top: 80px;
 }
 .main_section{
   font-family: "Great Vibes", cursive ;
   color: rosybrown;
+  font-size: 30px;
+  font-weight: bold;
   }
   .btn {
     position: static;
@@ -66,4 +79,5 @@ body{
   background-color: rosybrown;
   transition: all 0.9s ease-in-out;
   transition-delay: 0.7s;
+  
 }
