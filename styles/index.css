@@ -13,28 +13,57 @@
 body{
   background-color: blanchedalmond;
 }
-.img{
-  height: 100%;
-  width: 100%;
+.main_header{
+    text-align: center;
+    padding-top: 20px;
+    color: brown;
 }
-.image-container {
-    margin-inline-start: auto;
+
+.container{
+    background-image: url(../images/invitation.jpg);  
+    background-repeat: no-repeat;  
+    display: inline-grid;
+    background-position: center;
+    justify-content: center;
     position: relative;
     text-align:center ;
-    
+    margin-top: 50px;
+    padding: 50px;
+    width: 1200px;
+    height: 600px;
 }
+
 .main_title .main_info .main_section{
-  position: absolute;
-  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  top: 70%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  padding-top: 50px;
+   
 }
-.main_title .main_info{
+.main_info .main_title {
   font-family: "Playfair Display", serif;
-  font-size: 16px;
-  color: darkred
+  font-size: 24px;
+  color: darkred;
+
 }
 .main_section{
   font-family: "Great Vibes", cursive ;
   color: rosybrown;
+  }
+  .btn {
+    position: static;
+    justify-content: center;
+    bottom: 75px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: rgb(194, 133, 133)
+   
+}
+.btn:hover {
+  background-color: rosybrown;
+  transition: all 0.9s ease-in-out;
+  transition-delay: 0.7s;
 }
